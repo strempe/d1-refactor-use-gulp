@@ -1,3 +1,4 @@
+$ImageHeader: url(./img/background.jpg);
 * {
   box-sizing: border-box;
 }
@@ -37,7 +38,7 @@
     color: black;
 }*/
 .header {
-  background: url(../img/background.jpg);
+  background: $ImageHeader
   background-size: cover;
   padding: 80px 0;
   color: white;
