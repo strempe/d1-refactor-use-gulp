@@ -14,7 +14,6 @@
 
 .column {
   flex: 1;
-  margin: 20px;
 }
 
 .nav {
@@ -33,15 +32,18 @@
   list-style: none;
 }
 
-/*.nav.ul.li:nth-child3 {
-    color: black;
-}*/
+.nav ul li:nth-child(3) {
+  color: black;
+}
+
 .header {
+  background: url(../img/background.jpg);
   background-size: cover;
   padding: 80px 0;
   color: white;
   text-align: center;
   font-size: 23px;
+  text-shadow: 2px 2px 4px #000000;
   background-attachment: fixed;
   background-position: center bottom;
 }
@@ -51,11 +53,17 @@
 }
 
 .pricing {
-  margin-right: 100px;
-  margin-left: 100px;
   margin-top: 45px;
   margin-bottom: 55px;
   text-align: center;
+}
+
+.pricing .column {
+  margin-right: 20px;
+}
+
+.pricing .column:last-child {
+  margin-right: 0;
 }
 
 .option {
@@ -83,9 +91,6 @@
   line-height: 45px;
 }
 
-/*.title:nth-child(2) {
-    font-size: 25px;
-}*/
 .column .title.blue {
   background: #333399;
   padding: 30px;
@@ -113,7 +118,7 @@
   padding: 10px;
   border-bottom: 1px solid silver;
   font-size: 13px;
-  color: grey;
+  color: gray;
 }
 
 .button {
@@ -125,7 +130,7 @@
 }
 
 button {
-  color: grey;
+  color: gray;
   background: white;
   border: 1px solid silver;
   padding-left: 13px;
@@ -138,26 +143,34 @@ button {
 }
 
 .info {
-  color: dark grey;
+  color: slategray;
   font-size: 13px;
-  margin-bottom: 40px;
-  margin-right: 100px;
-  margin-left: 100px;
   line-height: 25px;
 }
 
 .info .column {
-  margin: 10px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+
+.info .column:last-child {
+  margin-right: 0;
+}
+
+.info-title {
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .footer {
   background: black;
-  color: grey;
+  color: gray;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
   bottom: 0;
   border-bottom-radius: 4px, solid, black;
+  margin-top: 30px;
 }
 
 a {

@@ -1,0 +1,20 @@
+.nav {
+    color: $silver; 
+
+    ul {
+        display: flex;
+        padding: 0;   
+    }
+
+    li {
+        text-align: left;
+        padding: none;
+        margin: 10px;
+        list-style: none;
+
+        :nth-child(3) {
+            color: $black;
+        }
+    }
+}
+

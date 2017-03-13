@@ -1,0 +1,48 @@
+.pricing {
+    margin-top: 45px;
+    margin-bottom: 55px;
+    text-align: center;
+
+    .column {
+    margin-right: 20px;
+        .time {
+            opacity: .5;
+        }
+
+        .option {
+            font-size: 12px;
+            letter-spacing: 3px;
+        }
+
+        .price {
+            font-size: 60px;
+        }
+
+        :last-child {
+            margin-right: 0;
+        }
+
+        .title {
+            padding: 30px;
+            line-height: 45px;
+
+            .blue {
+                background: $blue;
+            }
+
+            .green {
+                background: $green;
+            }
+
+            .black {
+                background: $black;
+            }
+        }            
+    }
+}
+
+
+
+
+
+
